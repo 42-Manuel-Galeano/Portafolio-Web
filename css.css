@@ -1,0 +1,198 @@
+body{
+    background-image: url("https://us.123rf.com/450wm/worldofvector/worldofvector1702/worldofvector170200001/70873073-papel-del-cuaderno-plantilla-de-c%C3%A9lulas-textura-cuadrado-hoja-en-blanco-del-cuaderno-fondo-dise%C3%B1o-pl.jpg?ver=6");
+}
+.contenedor, .contenedor2, .contenedor3, .contendor7{
+    padding: 20px;
+    display: flex;
+    flex-flow:row;
+    gap:15px;
+}
+.barra{
+    width: 100%;
+    padding:5px;
+    background-color: #DA2C38;  
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: auto;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+  color:white;
+    padding:5px;
+}
+a:hover{
+    background:#A6191F;
+    border-radius: 10px;
+}
+ .menu{
+    font-weight: bold;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap:15px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:white;
+    padding: 10px;
+}
+.presenta{
+    background-image: url("https://i.pinimg.com/originals/63/51/42/63514248d360cd95cbc6be6dd4c9448b.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;flex-grow: 1; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow:column;
+}
+.foto{
+    flex-grow: 1; 
+}
+img{
+    width: 350px;
+}
+.cuadro{
+    background-color: black;
+    width:100%;
+    height: 50%;
+}
+.titulos{
+color:#44AAFF; 
+font-family:impact; 
+}
+h1, h2{
+    color: #121F51;
+    font-family: impact; 
+}
+.texto-presentacion{
+    background-color: #FCFF6C;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.nada{
+    width: 70%;
+    height:5vh;
+background-color:#9893DA ;
+}
+.mis-pasatiempos{
+    width:30%;
+    font-size: 1.9em;
+    color:#44AAFF; 
+font-family:impact; 
+}
+.contenedor2{
+    padding: 20px;
+    display: flex;
+    flex-flow:row;
+    flex-direction:row-reverse ;
+    justify-content: flex-end;
+    gap:15px;
+}
+.presenta2{
+    background-image: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/392.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: 1; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow:column;
+}
+.presenta3{
+    background-image: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/392.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: 1; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow:column;
+}
+.foto-cine{
+    width: 20;
+}
+.nada1{
+    width: 30%;
+}
+.texto-2{
+    background-color: #70E4EF;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.contenedor4{
+    padding: 5px;
+    display: flex;
+    flex-flow:row;
+    gap:5px;
+}
+.teach{
+    background-color: rgba(195, 248, 180, 0.781);
+    display:flex;
+    align-items: center;
+}
+.work{
+    background-color: rgba(255, 230, 129, 0.788);
+    display:flex;
+    align-items: center;
+}
+.gym{
+    background-color: rgba(242, 121, 121, 0.824);
+    display:flex;
+    align-items: center;
+}
+.reposter{
+    background-color: rgba(199, 155, 122, 0.842);
+    display:flex;
+    align-items: center;
+}
+.contenedor5{
+    background-color: #FFD5C2;
+    width:50%;
+    padding: 20px;
+    font-size: 1.9em;
+    color: #F54F4F;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:15px;
+}
+.contenedor5 img{
+    width:50px;
+}
+.contenedor6{
+    background-color: #D8F793;
+    width:50%;
+    padding: 20px;
+    font-size: 1.9em;
+    color: #F54F4F;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:15px;
+}
+input, textarea, button{
+    background-color: white;
+    color:black;
+    border-bottom-color:#107C41  ;
+    border-width: 0px 0px 1px 0px;
+}
+.contenedor7{
+    align-items: center;
+}
+.espacio{
+    background-color: #9893DA;
+    width: 5px;
+}
